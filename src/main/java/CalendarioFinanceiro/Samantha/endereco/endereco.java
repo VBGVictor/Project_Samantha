@@ -50,7 +50,7 @@ public class endereco {
         if (dados.uf() != null) {
             this.uf = dados.uf();
         }
-        
+
         return dados;
     }
 }
