@@ -80,12 +80,16 @@ que estão em andamento e póximos passos.
 
 # 💻 Tecnologias
 
-  * Esse projeto foi desenvolvido com as seguintes técnologias:
+  * Esse projeto esta sendo desenvolvido com as seguintes técnologias:
 
       Java
+      
       Spring
+      
       Json Web Token
+      
       MongoDB
+      
       Fluter
       
   *OBS: O FrontEnd será desenvolvido em Fluter, mas ficará em outro repositório git.
