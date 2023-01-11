@@ -67,4 +67,8 @@ public class paciente {
     public void desabilitar() {
         this.ativo = false;
     }
+
+    public void habilitar() {
+        this.ativo = true;
+    }
 }
