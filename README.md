@@ -18,10 +18,16 @@ que estão em andamento e póximos passos.
     DELETE /paciente/D/:id - Deleta o cadastro de um paciente
     
     DELETE /paciente/DT/:id - Desabilita o cadastro de um paciente
+
+    DELETE /paciente/A/:id - Habilita o cadastro de um paciente
+
+    GET /paciente/:id - Lista todos os pacientes
     
-    GET /paciente - Lista todos os pacientes
+    GET /paciente - Lista um paciente
     
     GET /paciente/ativo - Lista todos os pacientes ativos
+
+    GET /paciente/desativados - Lista todos os paciente desativados
 
   
 # Procedimentos a serem realizados:
@@ -39,19 +45,25 @@ que estão em andamento e póximos passos.
     /users - Lista todos os usuários (Necessita estar autenticado)
     
     
-  * Rotas de pacientes:
+  * Rotas de psicólogos:
   
-    POST /paciente - Registra um novo paciente
+    POST /psicologo - Registra um novo psicologo
     
-    PUT /paciente/:id - Edita o cadastro de um paciente
+    PUT /psicologo/:id - Edita o cadastro de um psicologo
     
-    DELETE /paciente/D/:id - Deleta o cadastro de um paciente
+    DELETE /psicologo/D/:id - Deleta o cadastro de um psicologo
     
-    DELETE /paciente/DT/:id - Desabilita o cadastro de um paciente
+    DELETE /psicologo/DT/:id - Desabilita o cadastro de um psicologo
     
-    GET /paciente - Lista todos os pacientes
+    DELETE /psicologo/A/:id - Habilita o cadastro de um psicologo
+
+    GET /psicologo/:id - Lista um psicologo
     
-    GET /paciente/ativo - Lista todos os pacientes ativos
+    GET /psicologo - Lista todos os psicologo
+    
+    GET /psicologo/ativo - Lista todos os psicologo ativos
+
+    GET /psicologo/desativados - Lista todos os psicologo desativados
     
 
   * Serviços (Necessita estar autenticado):
