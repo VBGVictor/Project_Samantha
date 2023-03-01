@@ -1,6 +1,6 @@
-package CalendarioFinanceiro.Samantha.paciente;
+package CalendarioFinanceiro.Samantha.domain.paciente;
 
-import CalendarioFinanceiro.Samantha.endereco.endereco;
+import CalendarioFinanceiro.Samantha.domain.endereco.endereco;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -30,7 +30,7 @@ public class paciente {
     private String dataAniversario;
     private String estadoCivil;
 
-    private endereco endereco;
+    private CalendarioFinanceiro.Samantha.domain.endereco.endereco endereco;
 
     private Boolean ativo;
 

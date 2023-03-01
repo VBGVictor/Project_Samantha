@@ -1,6 +1,6 @@
-package CalendarioFinanceiro.Samantha.paciente;
+package CalendarioFinanceiro.Samantha.domain.paciente;
 
-import CalendarioFinanceiro.Samantha.endereco.endereco;
+import CalendarioFinanceiro.Samantha.domain.endereco.endereco;
 
 import java.util.Optional;
 

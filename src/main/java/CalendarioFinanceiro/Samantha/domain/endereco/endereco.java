@@ -1,4 +1,4 @@
-package CalendarioFinanceiro.Samantha.endereco;
+package CalendarioFinanceiro.Samantha.domain.endereco;
 
 
 import lombok.AllArgsConstructor;

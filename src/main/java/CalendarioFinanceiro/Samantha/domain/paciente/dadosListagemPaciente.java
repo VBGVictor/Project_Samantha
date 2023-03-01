@@ -1,4 +1,4 @@
-package CalendarioFinanceiro.Samantha.paciente;
+package CalendarioFinanceiro.Samantha.domain.paciente;
 
 public record dadosListagemPaciente(String id, String nome, String email, String idade, String dataAniversario, String estadoCivil) {
 

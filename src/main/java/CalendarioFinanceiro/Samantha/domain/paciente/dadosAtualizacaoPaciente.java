@@ -1,7 +1,6 @@
-package CalendarioFinanceiro.Samantha.paciente;
+package CalendarioFinanceiro.Samantha.domain.paciente;
 
-import CalendarioFinanceiro.Samantha.endereco.dadosEndereco;
-import jakarta.validation.constraints.NotBlank;
+import CalendarioFinanceiro.Samantha.domain.endereco.dadosEndereco;
 import jakarta.validation.constraints.NotNull;
 
 public record dadosAtualizacaoPaciente(

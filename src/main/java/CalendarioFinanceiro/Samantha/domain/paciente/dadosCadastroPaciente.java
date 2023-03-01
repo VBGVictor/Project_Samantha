@@ -1,6 +1,6 @@
-package CalendarioFinanceiro.Samantha.paciente;
+package CalendarioFinanceiro.Samantha.domain.paciente;
 
-import CalendarioFinanceiro.Samantha.endereco.dadosEndereco;
+import CalendarioFinanceiro.Samantha.domain.endereco.dadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

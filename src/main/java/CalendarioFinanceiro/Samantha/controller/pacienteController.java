@@ -1,8 +1,9 @@
 package CalendarioFinanceiro.Samantha.controller;
 
 
+import CalendarioFinanceiro.Samantha.domain.paciente.*;
 import CalendarioFinanceiro.Samantha.mongoDb.repository.pacienteRepository;
-import CalendarioFinanceiro.Samantha.paciente.*;
+import CalendarioFinanceiro.Samantha.domain.paciente.*;
 import CalendarioFinanceiro.Samantha.service.sequenceGeneratorService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +30,7 @@ public class pacienteController {
 
     @PostMapping
     @Transactional
-    public ResponseEntity save(@RequestBody @Valid dadosCadastroPaciente dados, UriComponentsBuilder uriBuilder){
+    public ResponseEntity salvar(@RequestBody @Valid dadosCadastroPaciente dados, UriComponentsBuilder uriBuilder){
         paciente.setId(service.getSequenceNumber(paciente.SEQUENCE_NAME));
         var paciente = new paciente(dados);
         repository.save(paciente);
